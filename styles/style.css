@@ -11,7 +11,7 @@
 }
 
 .header {
-  background-color:   #f2f2f2;
+  background-color:   #f3a3a3;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -109,17 +109,24 @@ text-decoration: none;
 .description__two-columns{
   display: flex;
   flex-direction: column;
+  padding-right: 55px;
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
   justify-content: center;
-
 }
 
 .description__two-columns__brief{
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
   color:  #2f80ed;
-  text-decoration: none;
   width:175px ;
   background-color: cyan;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .description__two-columns__main-text{
@@ -134,7 +141,8 @@ text-decoration: none;
 }
 
 .description__two-columns__paragraph{
-  line-height: 24px;
+  line-height: 34px;
+  font-size: 24px;
   line-break: 30px;
   margin-bottom: 30px;
   margin-top: 0;
@@ -144,7 +152,8 @@ text-decoration: none;
 }
 
 .description__two-columns__span-accent{
-  line-height: 12px;
+  line-height: 34px;
+  font-size: 24px;
   background-color: greenyellow;
   font-weight: bold;
 }
@@ -156,7 +165,12 @@ margin: 100px;
 
 }
 
-.digits__section_title{
+.digits__section__title{
+  display: flex;
+    justify-content: center;
+  line-height: 69px;
+    font-size:60px;
+    font-weight: bold;
   bottom: 20px;
   top: 100px;
   width: 60%;
@@ -165,7 +179,7 @@ margin: 100px;
  left: 100px;
 }
 
-.digits__section_subtitle{
+.digits__section__subtitle{
 width: 60%;
 font-weight: bold;
 background-color: indianred;
@@ -177,9 +191,66 @@ width: 1100px;
 background-color: lightblue;
 }
 
-.digit__table_cell{
+.digit__table__cell{
  line-break: 60px;
  width: 250px;
  background-color: lightsalmon;
 }
 
+.digits__table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-style: normal;
+  background-color: plum;
+}
+.digits__table__text {
+  line-height: 1.2;
+  background-color: rgb(251, 244, 145);
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+
+.feynman__image {
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-color: #F2F2F2;
+  background-size: 867px 637px;
+  z-index: -1;
+}
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 1;
+  width: 775px;
+  margin: auto;
+  padding-top: 200px;
+}
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+  align-self: center;
+  text-align: center;
+  margin-top: 70px;
+}
+.feynman__link {
+  position: absolute;
+  height: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #000000;
+  right: 48px;
+  text-decoration: none;
+}
