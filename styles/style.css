@@ -363,12 +363,16 @@ margin-bottom: 100px;
 }
 
 .footer{
+  display: flex;
+
   background-color: black;
   color:white;
+
 }
 
 .footer__columns{
   display: flex;
+  
   flex-basis: 711px;
   border: 1px solid rgb(90, 164, 248);
 }
