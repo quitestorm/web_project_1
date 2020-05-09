@@ -372,7 +372,7 @@ margin-bottom: 100px;
 
 .footer__columns{
   display: flex;
-  
+
   flex-basis: 711px;
   border: 1px solid rgb(90, 164, 248);
 }
@@ -389,10 +389,11 @@ margin-bottom: 100px;
 
 .footer__arthur{
   display: flex;
-
+  justify-content: flex-start;
+margin-right: 40px;
   padding-top: 18px;
   padding-bottom: 18px;
-  margin-left: 0px!important;
+
   margin-top: 334px;
   line-height: 25px;
   font-size: 18px;
